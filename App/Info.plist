@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>CFBundleDevelopmentRegion</key><string>zh_CN</string>
+    <key>CFBundleExecutable</key><string>Jianchao</string>
+    <key>CFBundleIdentifier</key><string>local.jianchao.app</string>
+    <key>CFBundleName</key><string>剪巢</string>
+    <key>CFBundleDisplayName</key><string>剪巢</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>0.3.6</string>
+    <key>CFBundleVersion</key><string>9</string>
+    <key>JianchaoAuthor</key><string>hck</string>
+    <key>JianchaoFeedbackEmail</key><string>87975531@qq.com</string>
+    <key>NSHumanReadableCopyright</key><string>© 2026 hck · MIT License</string>
+    <key>JianchaoSigningMode</key><string>development</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>LSMinimumSystemVersion</key><string>14.0</string>
+    <key>LSUIElement</key><true/>
+    <key>NSPasteboardUsageDescription</key><string>读取你复制的文字、图片和文件引用，在本机保存可搜索的剪贴历史。</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSPrincipalClass</key><string>NSApplication</string>
+</dict></plist>

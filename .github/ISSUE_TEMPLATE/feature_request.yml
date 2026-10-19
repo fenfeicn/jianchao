@@ -1,0 +1,16 @@
+name: 功能建议
+description: 说说你遇到的具体场景，以及希望怎样更方便。
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 你当时在做什么？
+      description: 比功能名称更有帮助的是一个实际使用场景。
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 希望剪巢怎样帮助你？
+    validations:
+      required: true

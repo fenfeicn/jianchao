@@ -1,0 +1,29 @@
+.build/
+build/
+.swiftpm/
+.DS_Store
+.runtime/
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.keychain
+*.keychain-db
+*.private-key.pem
+
+# Generated publication archives
+docs/publish/*.zip
+
+# Personal editor state
+.idea/
+.vscode/
+
+# Local design, checks, and internal documents are not published
+design/
+Tests/
+docs/
+scripts/test.sh
+Sources/Jianchao/PreviewRegressionCheck.swift

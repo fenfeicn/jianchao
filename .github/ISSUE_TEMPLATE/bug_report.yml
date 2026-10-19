@@ -1,0 +1,34 @@
+name: 问题反馈
+description: 告诉我哪一步不顺手，或哪里没有按预期工作。
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: "感谢反馈！请不要上传真实密码、Token、聊天记录或其他敏感内容。"
+  - type: input
+    id: environment
+    attributes:
+      label: 使用环境
+      description: macOS 版本、Apple Silicon / Intel、剪巢版本。
+      placeholder: macOS 27，Apple Silicon，剪巢 0.3.6
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 怎样重现
+      description: 涉及哪个应用？进行了哪些操作？也可以粘贴应用「关于」里的诊断模板。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 希望发生什么
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际发生了什么
+    validations:
+      required: true
